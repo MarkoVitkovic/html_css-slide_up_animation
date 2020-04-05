@@ -1,0 +1,48 @@
+/*slideup*/
+.slide{
+  background: #0f3037;
+  background: linear-gradient(to right, #2c5364,#203a43,#0f2027 );
+  height: 905px;
+}
+.slide-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 20rem;
+
+}
+.inner{
+  text-align: center;
+  color: whitesmoke;
+  overflow: hidden; 
+  padding: 0.4rem;
+}
+.inner h1{
+  font-size: 3.5rem;
+  animation: Slide_Up 1.5s ease;
+}
+.inner p{
+  font-size: 1.2rem;
+  animation: Slide_Up 2.1s ease;
+}
+.inner button{
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 4rem;
+  border: none;
+  background: red;
+  width: 200px;
+  color: whitesmoke;
+  animation: Slide_Up 2.4s ease;
+}
+@keyframes Slide_Up{
+  0%{
+    transform: translateY(250px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+
+/*end of slideup*/
